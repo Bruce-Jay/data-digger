@@ -51,7 +51,7 @@ const Details = ({ graph, id, month, typeMap, platform }) => {
                 " " +
                 sourceNode[1];
             return [
-              name.substring(0, 20),
+              name,
               parseFloat(((1 - graph.meta.retentionFactor) * link[2]).toFixed(3)),
               sourceValue[2],
               parseFloat(((1 - graph.meta.retentionFactor) * link[2] * sourceValue[2]).toFixed(3)),
