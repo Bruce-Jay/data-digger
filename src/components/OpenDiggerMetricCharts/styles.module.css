@@ -1,0 +1,36 @@
+.inputDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.platformSelect {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.metricSelect {
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.nameInput {
+  padding: 5px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+.submitButton {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: blue;
+  color: white;
+  border: none;
+}
+
+.chart {
+  height: 600px !important;
+  width: 100%;
+}

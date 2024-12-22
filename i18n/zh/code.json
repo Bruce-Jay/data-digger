@@ -1,0 +1,439 @@
+{
+  "theme.ErrorPageContent.title": {
+    "message": "页面已崩溃。",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.blog.archive.title": {
+    "message": "历史博文",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "历史博文",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "回到顶部",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "博文列表分页导航",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "较新的博文",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "较旧的博文",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "博文分页导航",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "较新一篇",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "较旧一篇",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.blog.post.plurals": {
+    "message": "{count} 篇博文",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} 含有标签「{tagName}」",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "查看所有标签",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "切换浅色/暗黑模式（当前为{mode}）",
+    "description": "The ARIA label for the navbar color mode toggle"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "暗黑模式",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "浅色模式",
+    "description": "The name for the light color mode"
+  },
+  "theme.docs.DocCard.categoryDescription": {
+    "message": "{count} 个项目",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "页面路径",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "文件选项卡",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "上一页",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "下一页",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "{count} 篇文档带有标签",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged}「{tagName}」",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "版本：{versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "此为 {siteTitle} {versionLabel} 版尚未发行的文档。",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "此为 {siteTitle} {versionLabel} 版的文档，现已不再积极维护。",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "最新的文档请参阅 {latestVersionLink} ({versionLabel})。",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "最新版本",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "编辑此页",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "{heading}的直接链接",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": "于 {date} ",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": "由 {user} ",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "最后{byUser}{atDate}更新",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.NotFound.title": {
+    "message": "找不到页面",
+    "description": "The title of the 404 page"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "选择版本",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "标签：",
+    "description": "The label alongside a tag list"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "关闭",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.admonition.caution": {
+    "message": "警告",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "危险",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "信息",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "备注",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "提示",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "注意",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "最近博文导航",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "复制成功",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "复制代码到剪贴板",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "复制",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "切换自动换行",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "展开侧边栏分类 '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "折叠侧边栏分类 '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "主导航",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.NotFound.p1": {
+    "message": "我们找不到您要找的页面。",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "请联系原始链接来源网站的所有者，并告知他们链接已损坏。",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "选择语言",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "本页总览",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "阅读更多",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "阅读 {title} 的全文",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "阅读需 {readingTime} 分钟",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "主页面",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "收起侧边栏",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "收起侧边栏",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "文档侧边栏",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "关闭导航栏",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← 回到主菜单",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "切换导航栏",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "展开侧边栏",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "展开侧边栏",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "重试",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "跳到主要内容",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "标签",
+    "description": "The title of the tag list page"
+  },
+  "theme.unlistedContent.title": {
+    "message": "未列出页",
+    "description": "The unlisted content banner title"
+  },
+  "theme.unlistedContent.message": {
+    "message": "此页面未列出。搜索引擎不会对其索引，只有拥有直接链接的用户才能访问。",
+    "description": "The unlisted content banner message"
+  },
+  "homepage.pullPreviewWarning": {
+    "message": "⚠ 注意：该网站为 OpenDigger 官网仓库 <a href='https://github.com/X-lab2017/open-digger-website/pull/{pullNumber}'>PR#{pullNumber}</a> 的预览版本，请勿分享，谢谢！OpenDigger 官网请移步 <a href='https://open-digger.cn/'>https://open-digger.cn</a>。"
+  },
+  "homepage.tagLine": {
+    "message": "开源数据分析平台"
+  },
+  "homepage.getStarted": {
+    "message": "OpenDigger 5 分钟简介 🔊"
+  },
+  "features.richMetrics.title": {
+    "message": "丰富的指标实现"
+  },
+  "features.richMetrics.url": {
+    "message": "/docs/user_docs/playground"
+  },
+  "features.richMetrics.desc": {
+    "message": "OpenDigger 实现了 <a href='https://chaoss.community/metrics/'>CHAOSS 社区</a>开发的各种指标，同时也实现了如 <a href=\"/docs/metrics/openrank/community_openrank\">OpenRank</a> 等 X-lab 开发的指标。"
+  },
+  "features.easyToUse.title": {
+    "message": "简单的上手体验"
+  },
+  "features.easyToUse.url": {
+    "message": "/docs/user_docs/intro"
+  },
+  "features.easyToUse.desc": {
+    "message": "OpenDigger 将所有实现的指标导出为静态数据文件并发布到云存储中，供任何开发者和应用随意使用。"
+  },
+  "features.variousApplications.title": {
+    "message": "丰富的下游应用"
+  },
+  "features.variousApplications.url": {
+    "message": ""
+  },
+  "features.variousApplications.desc": {
+    "message": "OpenDigger 有多样的下游衍生应用，例如 <a href='https://open-leaderboard.x-lab.info/'>OpenLeaderboard</a>、 <a href='https://github.com/hypertrons/hypertrons-crx'>HyperCRX</a>、 <a href='https://open-galaxy.x-lab.info/'>OpenGalaxy</a> 等。"
+  },
+  "metricCharts.title": {
+    "message": "{name} 的 {metric} 指标"
+  },
+  "metricCharts.dataNotFound": {
+    "message": "数据未找到"
+  },
+  "metricCharts.invalidInput": {
+    "message": "请检查输入参数"
+  },
+  "searchInput.submit": {
+    "message": "提交"
+  },
+  "searchInput.placeholder": {
+    "message": "键入搜索名称..."
+  },
+  "leaderboard.dataInputPlaceHolder": {
+    "message": "数据输入，内容为 JSON 数据，每项为表格一行内容"
+  },
+  "leaderboard.titleInputPlaceHolder": {
+    "message": "排行榜名称"
+  },
+  "leaderboard.headerInput": {
+    "message": "表头文本"
+  },
+  "leaderboard.headerWidth": {
+    "message": "表头宽度"
+  },
+  "leaderboard.headerType.String": {
+    "message": "字符串"
+  },
+  "leaderboard.headerType.StringWithIcon": {
+    "message": "字符串与图标"
+  },
+  "leaderboard.headerType.NumberWithDelta": {
+    "message": "数字与变化"
+  },
+  "leaderboard.submit": {
+    "message": "提交"
+  },
+  "leaderboard.invalidDataAlert": {
+    "message": "数据输入不是合法的 JSON 字符串，请检查输入"
+  },
+  "communityLeaderboard.leaderboard.title": {
+    "message": "OpenRank 贡献度排行榜"
+  },
+  "communityLeaderboard.leaderboard.login": {
+    "message": "账号"
+  },
+  "communityLeaderboard.details.title": {
+    "message": "贡献度详情表"
+  },
+  "communityLeaderboard.details.from": {
+    "message": "来源"
+  },
+  "communityLeaderboard.details.ratio": {
+    "message": "比例"
+  },
+  "communityLeaderboard.details.value": {
+    "message": "值"
+  },
+  "communityLeaderboard.banner.title": {
+    "message": "OpenRank 贡献度排行榜"
+  },
+  "communityLeaderboard.fetchingData": {
+    "message": "正在获取数据..."
+  },
+  "communityLeaderboard.fetchDataError": {
+    "message": "获取数据错误"
+  },
+  "communityLeaderboard.noDataForMonth": {
+    "message": "当月数据未找到"
+  },
+  "leaderboards.projects.title": {
+    "message": "2024 全球项目 OpenRank 排行榜 Top 100"
+  },
+  "leaderboards.projects.name": {
+    "message": "项目名"
+  },
+  "leaderboards.projects.developers": {
+    "message": "开发者规模"
+  },
+  "leaderboards.projects.initiator": {
+    "message": "发起组织"
+  },
+  "leaderboards.projects.country": {
+    "message": "发起组织所在国家"
+  },
+  "leaderboards.companies.title": {
+    "message": "2024 全球企业 OpenRank 排行榜 Top 100"
+  },
+  "leaderboards.companies.name": {
+    "message": "企业"
+  },
+  "leaderboards.companies.repos": {
+    "message": "仓库规模"
+  },
+  "leaderboards.companies.developers": {
+    "message": "开发者规模"
+  },
+  "leaderboards.companies.country": {
+    "message": "所在国家"
+  },
+  "leaderboards.provinces.title": {
+    "message": "2024 全球各国行政区划开发者 OpenRank 排行榜 Top 100"
+  },
+  "leaderboards.provinces.name": {
+    "message": "行政区划"
+  },
+  "leaderboards.provinces.developers": {
+    "message": "开发者规模(万)"
+  },
+  "leaderboards.provinces.country": {
+    "message": "所属国家"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "version.label": {
+    "message": "最新版本"
+  },
+  "sidebar.userDocSidebar.category.data_sources": {
+    "message": "数据来源"
+  },
+  "sidebar.userDocSidebar.category.metrics": {
+    "message": "指标数据"
+  },
+  "sidebar.userDocSidebar.category.label_data": {
+    "message": "标签数据"
+  },
+  "sidebar.userDocSidebar.category.downstream": {
+    "message": "下游应用"
+  },
+  "sidebar.userDocSidebar.link.PolarDBDashboard": {
+    "message": "PolarDB 社区大屏"
+  },
+  "sidebar.userDocSidebar.link.OpenAtomDashboard": {
+    "message": "开放原子全球协作大屏"
+  },
+  "sidebar.userDocSidebar.category.openrank": {
+    "message": "OpenRank"
+  },
+  "sidebar.userDocSidebar.category.statistics": {
+    "message": "统计指标"
+  },
+  "sidebar.userDocSidebar.category.developers": {
+    "message": "开发者"
+  },
+  "sidebar.userDocSidebar.category.issues": {
+    "message": "问题"
+  },
+  "sidebar.userDocSidebar.category.change_requests": {
+    "message": "变更请求"
+  },
+  "sidebar.developerDocSidebar.category.jupyter_notebook": {
+    "message": "Jupyter Notebook"
+  },
+  "sidebar.developerDocSidebar.category.tools": {
+    "message": "工具集"
+  }
+}

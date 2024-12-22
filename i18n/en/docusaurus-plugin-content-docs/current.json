@@ -1,0 +1,38 @@
+{
+  "version.label": {
+    "message": "Next"
+  },
+  "sidebar.userDocSidebar.category.data_sources": {
+    "message": "Data Sources"
+  },
+  "sidebar.userDocSidebar.category.metrics": {
+    "message": "Metrics"
+  },
+  "sidebar.userDocSidebar.category.openrank": {
+    "message": "OpenRank"
+  },
+  "sidebar.userDocSidebar.category.statistics": {
+    "message": "Statistics"
+  },
+  "sidebar.userDocSidebar.category.developers": {
+    "message": "Developers"
+  },
+  "sidebar.userDocSidebar.category.issues": {
+    "message": "Issues"
+  },
+  "sidebar.userDocSidebar.category.change_requests": {
+    "message": "Change requests"
+  },
+  "sidebar.userDocSidebar.category.downstream": {
+    "message": "Downstream Apps"
+  },
+  "sidebar.userDocSidebar.link.PolarDBDashboard": {
+    "message": "PolarDB Dashboard"
+  },
+  "sidebar.userDocSidebar.link.OpenAtomDashboard": {
+    "message": "OpenAtom Dashboard"
+  },
+  "sidebar.developerDocSidebar.category.jupyter_notebook": {
+    "message": "Jupyter Notebook"
+  }
+}
