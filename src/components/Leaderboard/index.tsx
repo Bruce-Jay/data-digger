@@ -7,7 +7,6 @@ import { NameWithIcon } from './NameWithIcon';
 
 import { useReducer } from 'react';
 import { useReactTable, createColumnHelper, getCoreRowModel } from '@tanstack/react-table';
-import styles from './styles.module.css';
 
 export const COLUMN_TYPE_RULES: {
   name: string;
@@ -17,7 +16,7 @@ export const COLUMN_TYPE_RULES: {
     {
       name: 'String',
       fieldsNeeded: 1,
-      renderer: (text) => <span className={styles.ellipsis} dangerouslySetInnerHTML={{ __html: text }}></span>,
+      renderer: (text) => <div dangerouslySetInnerHTML={{ __html: text }}></div>,
     },
     {
       name: 'StringWithIcon',

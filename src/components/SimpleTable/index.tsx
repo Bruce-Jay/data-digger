@@ -1,4 +1,5 @@
 import React from 'react';
+import { Tooltip } from 'antd';
 import { BoardContainer } from '../Leaderboard/BoardContainer';
 import { BaseBoard } from '../Leaderboard/BaseBoard';
 import { useReactTable, createColumnHelper, getCoreRowModel } from '@tanstack/react-table';
@@ -24,7 +25,21 @@ export default (props: { title: string; data: any[]; options: any[] }): JSX.Elem
       cell: info => {
         const columnTypeRule = COLUMN_TYPE_RULES.find(rule => rule.name === type);
         const renderProps = fields.map(field => info.getValue()[field]);
-        return columnTypeRule.renderer(...renderProps);
+        const cellContent = columnTypeRule.renderer(...renderProps);
+        const cellText = cellContent.type === "div" ? cellContent.props.dangerouslySetInnerHTML.__html : cellContent;
+        const shortText =
+          typeof cellText === "string" && cellText.length > 20
+            ? cellText.slice(0, 20)
+            : cellText;
+        return cellContent.type === "div" && cellText.length > 20 ? (
+          <Tooltip title={cellText}>
+            <span>
+              {shortText}
+            </span>
+          </Tooltip>
+        ) : (
+          cellText
+        );
       },
       size: width,
     });
