@@ -17,7 +17,7 @@
 
 1. Clone the repository on your local machine:
     ```sh
-    git clone https://github.com/X-lab2017/open-digger-website.git
+    git clone https://github.com/Bruce-Jay/data-digger.git
     ```
 
 2. Navigate into the project directory:
