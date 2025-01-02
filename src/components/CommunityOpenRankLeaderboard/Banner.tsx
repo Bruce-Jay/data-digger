@@ -21,7 +21,7 @@ const Banner = ({ onSubmit, setDate, datePlaceholder, disabledDate }: BannerProp
   };
   return (
     <div className={styles.bannerBox}>
-      <div className={styles.bannerTitle}>{translate({ id: 'communityLeaderboard.banner.title' })}</div>
+      {/* <div className={styles.bannerTitle}>{translate({ id: 'communityLeaderboard.banner.title' })}</div> */}
       <div className={styles.bannerContent}>
         <SearchInput
           type={true}

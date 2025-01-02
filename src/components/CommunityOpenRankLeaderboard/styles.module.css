@@ -25,6 +25,17 @@
   background-color: rgba(35, 43, 67, 0.5);
 }
 
+.shareButton {
+  z-index: 100;
+  position: absolute;
+  top: 20%;
+  left: 20px;
+  height: 40px;
+  border: 1px solid #3366ff;
+  background-color: #3366ff;
+  color: white;
+}
+
 .bannerTitle {
   margin-bottom: 0.5rem;
   text-align: center;
